@@ -1,6 +1,18 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  background-image: #fff url(images/bloc-logo.png);
+  background-image: #fff url(images/instagram-pic.jpg) no-repeat top;
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.5
+}
+
+h1 {
+  font-size: 200%
+}
+
+h3 {
+  font-size: 150%
 }
 
 nav {
@@ -8,6 +20,14 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  color: pink;
 }
 
 .logo {
@@ -44,6 +64,10 @@ li {
 
 article {
   padding-top: 100px;
+}
+
+figure {
+  font-size: 75%;
 }
 
 .container {
